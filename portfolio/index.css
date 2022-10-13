@@ -1,4 +1,4 @@
-.hero{
+.hero-text{
     position: fixed;
     left: 400px;
     top: 200px;
@@ -7,10 +7,9 @@
 .hero-image{
     position: fixed;
     left: 700px;
-    top: 40px;
-    width: 640px;
-    height: 640px;
-    border-radius: 320px;
+    top: 80px;
+    height: 550px;
+    border-radius: 15px;
 }
 
 body{

@@ -1,0 +1,35 @@
+.about-text{
+    position: fixed;
+    left: 750px;
+    top: 200px;
+    width: 450px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.toolbar{
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolbar a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.toolbar a:hover{
+    padding-bottom: 7px;;
+    border-bottom: 4px solid rgb(136, 209, 246);
+  }
+
+.toolbar a:visited{
+    color: black;
+}
+
+body{
+    background-color: #fefaf6;
+}
