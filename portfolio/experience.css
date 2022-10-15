@@ -1,0 +1,25 @@
+.experience{
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 275px;
+    left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    height: 200px;
+    padding: 50px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}

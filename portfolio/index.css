@@ -1,12 +1,17 @@
 .hero-text{
     position: fixed;
-    left: 400px;
+    left: 350px;
     top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-text a:visited{
+    color: black;
 }
 
 .hero-image{
     position: fixed;
-    left: 700px;
+    left: 750px;
     top: 80px;
     height: 550px;
     border-radius: 15px;

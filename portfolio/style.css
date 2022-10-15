@@ -1,0 +1,28 @@
+.toolbar{
+    position: sticky;
+    top: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolbar a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+.toolbar a:hover{
+    padding-bottom: 6px;;
+    border-bottom: 4px solid rgb(136, 209, 246);
+  }
+
+.toolbar a:visited{
+    color: black;
+}
+
+body{
+    background-color: #fefaf6;
+}

@@ -8,28 +8,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.toolbar{
-    padding-left: 30px;
-    padding-top: 20px;
-    width: 450px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.toolbar a{
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.toolbar a:hover{
-    padding-bottom: 7px;;
-    border-bottom: 4px solid rgb(136, 209, 246);
-  }
-
-.toolbar a:visited{
-    color: black;
-}
-
-body{
-    background-color: #fefaf6;
+img{
+    top: 300px;
+    left: 200px;
 }
