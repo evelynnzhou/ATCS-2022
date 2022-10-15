@@ -10,7 +10,6 @@
 
 .toolbar a{
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 10px;
 }
 
@@ -25,4 +24,5 @@
 
 body{
     background-color: #fefaf6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

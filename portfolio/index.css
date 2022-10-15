@@ -5,6 +5,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.hero-text a{
+    text-decoration: none;
+}
+
+.hero-text a:hover{
+    text-decoration: underline;
+}
+
 .hero-text a:visited{
     color: black;
 }

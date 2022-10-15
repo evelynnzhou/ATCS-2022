@@ -1,0 +1,16 @@
+p{
+    position: fixed;
+    top: 200px;
+    left: 220px;
+    font-size: 80px;
+    color: rgb(136, 209, 246);
+    font-family: 'Apple Chancery';
+}
+
+ul{
+    position: fixed;
+    top: 270px;
+    right: 220px;
+    font-size: 25px;
+    line-height: 2.5;
+}
