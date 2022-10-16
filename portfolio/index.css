@@ -1,8 +1,7 @@
 .hero-text{
     position: fixed;
-    left: 350px;
+    right: 400px;
     top: 200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero-text a{
@@ -19,12 +18,7 @@
 
 .hero-image{
     position: fixed;
-    left: 750px;
-    top: 80px;
-    height: 550px;
-    border-radius: 15px;
-}
-
-body{
-    background-color: #fefaf6;
+    left: 0px;
+    top: 0px;
+    height: 715px;
 }

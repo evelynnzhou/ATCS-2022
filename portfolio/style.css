@@ -1,4 +1,7 @@
-.toolbar{
+/* I applied the DRY principle (which I got a 4 on) by creating
+this style sheet and applying it to all pages instead of repeating
+this code in my specific style sheets for each page. */
+.navbar{
     position: sticky;
     top: 5px;
     padding-left: 20px;
@@ -8,17 +11,17 @@
     justify-content: space-between;
 }
 
-.toolbar a{
+.navbar a{
     text-decoration: none;
     padding-bottom: 10px;
 }
 
-.toolbar a:hover{
+.navbar a:hover{
     padding-bottom: 6px;;
     border-bottom: 4px solid rgb(136, 209, 246);
   }
 
-.toolbar a:visited{
+.navbar a:visited{
     color: black;
 }
 
