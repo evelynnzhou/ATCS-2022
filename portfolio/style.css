@@ -1,7 +1,7 @@
 /* I applied the DRY principle (which I got a 4 on) by creating
 this style sheet and applying it to all pages instead of repeating
 this code in my specific style sheets for each page. */
-.navbar{
+/* .navbar{
     position: sticky;
     top: 5px;
     padding-left: 20px;
@@ -9,9 +9,9 @@ this code in my specific style sheets for each page. */
     width: 400px;
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.navbar a{
+/* .navbar a{
     text-decoration: none;
     padding-bottom: 10px;
 }
@@ -23,9 +23,15 @@ this code in my specific style sheets for each page. */
 
 .navbar a:visited{
     color: black;
-}
+} */
 
 body{
     background-color: #fefaf6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: white;
+    height: 70px;
+    font-size: 18px;
 }

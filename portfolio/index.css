@@ -1,7 +1,10 @@
 .hero-text{
     position: fixed;
-    right: 400px;
-    top: 200px;
+    left: 180px;
+    bottom: 260px;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
 }
 
 .hero-text a{
@@ -17,8 +20,6 @@
 }
 
 .hero-image{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    height: 715px;
+    opacity: 0.6;
+    overflow: hidden;
 }
