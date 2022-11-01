@@ -1,25 +1,18 @@
 .hero-text{
     position: fixed;
-    left: 180px;
-    bottom: 260px;
-    color: white;
+    right: 40px;
+    bottom: 50px;
+    color: black;
     font-size: 100px;
     font-weight: 700;
 }
 
-.hero-text a{
-    text-decoration: none;
-}
-
-.hero-text a:hover{
-    text-decoration: underline;
-}
-
-.hero-text a:visited{
-    color: black;
+.btn{
+    position: fixed;
+    right: 570px;
+    bottom: 20px;
 }
 
 .hero-image{
     opacity: 0.6;
-    overflow: hidden;
 }
