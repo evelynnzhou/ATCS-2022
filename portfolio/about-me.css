@@ -1,15 +1,34 @@
 .about-text{
-    position: fixed;
-    left: 700px;
-    bottom: 80px;
-    width: 500px;
+    /* position: fixed;
+    left: 650px;
+    bottom: 80px; */
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.25;
+    padding-left: 0px;
+    /* padding-right: 200px;
+    padding-left: 100px; */
 }
 
 img{
-    height: 370px;
-    position: fixed;
+    height: 400px;
+    /* padding-left: 200px; */
+    /* position: fixed;
     bottom: 30px;
-    left: 300px;
+    left: 250px; */
+}
+
+.jumbotron{
+    height: 200px;
+    padding: 2rem 1rem;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstp{
+    padding-bottom: 30px;
 }
