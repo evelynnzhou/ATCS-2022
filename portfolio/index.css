@@ -19,7 +19,17 @@
 
 .flex{
     display: flex;
-    align-items: flex-end;
+    width: 100vw;
+    align-items: center;
     position: fixed;
     bottom: 0px;
+}
+
+.hero-text{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.btn{
+    height: 60px;
 }
