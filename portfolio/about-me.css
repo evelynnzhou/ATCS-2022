@@ -1,20 +1,11 @@
 .about-text{
-    /* position: fixed;
-    left: 650px;
-    bottom: 80px; */
     font-size: 20px;
     line-height: 1.25;
     padding-left: 0px;
-    /* padding-right: 200px;
-    padding-left: 100px; */
 }
 
 img{
     height: 400px;
-    /* padding-left: 200px; */
-    /* position: fixed;
-    bottom: 30px;
-    left: 250px; */
 }
 
 .jumbotron{
