@@ -1,4 +1,4 @@
-.hero-text{
+/* .hero-text{
     position: fixed;
     right: 40px;
     bottom: 50px;
@@ -11,8 +11,15 @@
     position: fixed;
     right: 570px;
     bottom: 20px;
-}
+} */
 
 .hero-image{
     opacity: 0.6;
+}
+
+.flex{
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0px;
 }

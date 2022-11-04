@@ -1,4 +1,4 @@
-.experience{
+/* .experience{
     position: relative;
 }
 
@@ -6,17 +6,17 @@
     position: absolute;
     top: 275px;
     left: 50px;
-}
+} */
 
-img{
+/* img{
     height: 200px;
     padding: 50px;
-}
+} */
 
-.row1{
+/* .row1{
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
 .row2{
     display: flex;
