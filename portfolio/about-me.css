@@ -1,15 +1,25 @@
 .about-text{
-    position: fixed;
-    left: 750px;
-    top: 240px;
-    width: 500px;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.25;
+    padding-left: 0px;
 }
 
 img{
-    height: 500px;
-    position: fixed;
-    top: 150px;
-    left: 200px;
+    height: 400px;
+}
+
+.jumbotron{
+    height: 200px;
+    padding: 2rem 1rem;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstp{
+    padding-bottom: 30px;
 }

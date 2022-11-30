@@ -1,24 +1,20 @@
-.hero-text{
-    position: fixed;
-    right: 400px;
-    top: 200px;
-}
-
-.hero-text a{
-    text-decoration: none;
-}
-
-.hero-text a:hover{
-    text-decoration: underline;
-}
-
-.hero-text a:visited{
-    color: black;
-}
-
 .hero-image{
+    opacity: 0.6;
+}
+
+.flex{
+    display: flex;
+    width: 100vw;
+    align-items: center;
     position: fixed;
-    left: 0px;
-    top: 0px;
-    height: 715px;
+    bottom: 0px;
+}
+
+.hero-text{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.btn{
+    height: 60px;
 }

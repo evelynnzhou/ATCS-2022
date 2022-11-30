@@ -11,11 +11,8 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Your Personal CSS BELOW this Line -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Contact - Evelyn Zhou</title>
+    <title>Experience - Evelyn Zhou</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="contact.css">
-
   </head>
 
   <body>
@@ -35,7 +32,7 @@
             <a class="nav-link" href="about-me.html">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="experience.html" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle active" href="experience.html" id="navbarDropdownMenuLink" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Experience
             </a>
@@ -45,52 +42,50 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
+    <!-- copied from https://getbootstrap.com/docs/4.3/components/card/ -->
     <div class="container">
       <div class="jumbotron text-center">
-        <h1 class="title">Contact Me!</h1>
+        <h1>In School Experience</h1>
       </div>
-    </div>
-
-    <!-- copied from https://getbootstrap.com/docs/4.3/components/card/ -->
-    <div class="row">
-      <div class="flex col-lg-7">
+      <div class="card-deck">
         <div class="card">
-          <img src="Screen Shot 2022-11-02 at 11.00.01 AM.png" class="card-img-top" alt="...">
+          <img src="IMG_2576.JPG" class="card-img-top" alt="Card image cap">
           <div class="card-body">
-            <h4><i class="fa fa-envelope-o" aria-hidden="true"></i></h4>
-            <h4 class="card-title">Email:</h4>
-            <p class="card-text space">evelyn.zhou@menloschool.org</p>
-            <h4><i class="fa fa-phone" aria-hidden="true"></i></h4>
-            <h4 class="card-title">Call:</h4>
-            <p class="card-text">650-272-8223</p>
+            <h5 class="card-title">Menlo Girls Tennis Team</h5>
+          </div>
+          <div class="card-body">
+            <a class="btn btn-primary" href="https://www.menloschool.org/athletics/us-girls-varsity-tennis.php"
+              class="card-link">Learn More</a>
           </div>
         </div>
-      </div>
 
-      <!-- copied from https://getbootstrap.com/docs/4.3/components/forms/ -->
-      <div class="flex col-lg-4">
-        <form>
-          <div class="form-group">
-            <label for="text">Your Name</label>
-            <input class="form-control" type="text" placeholder="Enter name">
+        <div class="card">
+          <img src="IMG_8844.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Point Loma Classic</h5>
           </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Enter email">
+          <div class="card-body">
+            <a class="btn btn-primary" href="https://www.menloschool.org/athletics/us-girls-varsity-tennis.php"
+              class="card-link">Learn More</a>
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="card">
+          <img src="IMG_6586.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nor Cal Championships</h5>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+          <div class="card-body">
+            <a class="btn btn-primary" href="https://www.menloschool.org/athletics/us-girls-varsity-tennis.php"
+              class="card-link">Learn More</a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -104,6 +99,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+
   </body>
 
 </html>

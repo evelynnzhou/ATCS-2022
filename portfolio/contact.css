@@ -1,22 +1,21 @@
-p{
-    position: fixed;
-    top: 200px;
-    left: 220px;
-    font-size: 80px;
-    color: rgb(136, 209, 246);
-    font-family: 'Apple Chancery';
+h4{
+    display: inline;
 }
 
-ul{
-    position: fixed;
-    top: 270px;
-    right: 220px;
-    font-size: 25px;
-    line-height: 2.5;
+.space{
+    padding-bottom: 30px;
 }
 
-h1{
-    position: fixed;
-    top: 200px;
-    right: 400px;
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-group{
+    width: 400px;
+}
+
+.card{
+    width: 300px;
 }
